@@ -15,35 +15,28 @@ export default function NavBar(){
             </div>
 
             <div>
-                <a href="#">
+                <a href="">
                     <img src={puffLogo} alt="puff logo" />
                     <h4>PUFI PUFF</h4>
                 </a>
             </div>
 
             <div>
-                <a href="#">
+                <a href="">
                     <img src={rainLogo} alt="rain logo" />
                     <h4>PUFI RAIN</h4>
                 </a>
             </div>
 
             <div>
-                <a href="#">
-                    <img src={rainLogo} alt="rain logo" />
-                    <h4>PUFI RAIN</h4>
-                </a>
-            </div>
-
-            <div>
-                <a href="#">
+                <a href="">
                     <img src={cartLogo} alt="cart logo" />
                     <h4>PUFI CART</h4>
                 </a>
             </div>
 
             <div>
-                <a href="#">
+                <a href="">
                     <img src={napLogo} alt="nap logo" />
                     <h4>PUFI NAP</h4>
                 </a>

@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "../src/components/Home";
+import PufiRain from "../src/components/PufiRain";
+import PufiPuff from "../src/components/PufiPuff";
+import PufiCart from "../src/components/PufiCart";
+import PufiNap from "../src/components/PufiNap";
+import Subscription from "../src/components/Subscription";
+import Footer from "../src/components/Footer";
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div>
+        <Home/>
+      </div>
+
+      <div>
+        <PufiRain/>
+      </div>
+
+      <div>
+        <PufiPuff/>
+      </div>
+
+      <div>
+        <PufiCart/>
+      </div>
+
+      <div>
+        <PufiNap/>
+      </div>
+
+      <div>
+        <Subscription/>
+      </div>
+
+      <div>
+        <Footer/>
+      </div>
+      
     </div>
   );
 }
-
-export default App;
