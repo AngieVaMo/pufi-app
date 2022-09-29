@@ -5,7 +5,7 @@ export default function Home(){
     return(
         <div>
             <div>
-            <NavBar/>
+                <NavBar/>
             </div>
 
             <div>
@@ -14,7 +14,7 @@ export default function Home(){
             </div>
 
             <div>
-            <button>SHOP</button>
+                <button>SHOP</button>
             </div>
         </div>
     )
