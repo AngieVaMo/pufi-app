@@ -77,7 +77,7 @@ export default function Form(){
             </div>
 
             <div>
-            {errors && (<p>{errors}</p>)}
+            {errors && (<p className="errors">{errors}</p>)}
             </div>
 
         </div>
