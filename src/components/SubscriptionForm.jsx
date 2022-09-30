@@ -51,7 +51,7 @@ export default function Form(){
             Swal.fire({
                 icon: 'error',
                 title: 'Oops!!',
-                text: 'You must enter an email address, please.'                
+                text: 'You must enter an email address.'                
             })
         }
 
