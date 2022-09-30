@@ -15,6 +15,8 @@ export default function PufiNap(){
             <div>
                 <span>Pufi NAP</span>
             </div>
+            <div className="linea">
+            </div>
             <div>
                 <p> Descripción del producto. Este es un texto simulado.</p>
             </div>
