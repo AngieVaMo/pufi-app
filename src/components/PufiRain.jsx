@@ -4,7 +4,7 @@ import pufiRain2 from "../assets/pufiRain2.png";
 
 export default function PufiRain(){
 
-    const verMas = "< VER MAS"
+    const verMas = "> VER MAS"
 
     return(
         <div id="pufiRain" className="pufiRainContainer">

@@ -4,7 +4,7 @@ import pufiPuff2 from "../assets/pufiPuff2.png";
 
 export default function PufiPuff(){
 
-    const verMas = "< VER MAS"
+    const verMas = "> VER MAS"
 
     return(
         <div id="pufiPuff" className="pufiPuffContainer">

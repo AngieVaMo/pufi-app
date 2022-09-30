@@ -4,7 +4,7 @@ import pufiCart2 from "../assets/pufiCart2.png";
 
 export default function PufiCart(){
 
-    const verMas = "< VER MAS"
+    const verMas = "> VER MAS"
 
     return(
         <div id="pufiCart" className="pufiCartContainer">

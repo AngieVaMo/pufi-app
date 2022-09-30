@@ -4,7 +4,7 @@ import pufiNap2 from "../assets/pufiNap2.png";
 
 export default function PufiNap(){
 
-    const verMas = "< VER MAS"
+    const verMas = "> VER MAS"
 
     return(
         <div id="pufiNap" className="pufiNapContainer">
