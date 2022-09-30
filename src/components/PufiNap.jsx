@@ -7,7 +7,7 @@ export default function PufiNap(){
     const verMas = "< VER MAS"
 
     return(
-        <div>
+        <div id="pufiNap">
         <div>
             <button>SHOP</button>
         </div>

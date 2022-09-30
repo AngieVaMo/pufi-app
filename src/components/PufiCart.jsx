@@ -7,7 +7,7 @@ export default function PufiCart(){
     const verMas = "< VER MAS"
 
     return(
-        <div>
+        <div id="pufiCart">
         <div>
             <button>SHOP</button>
         </div>

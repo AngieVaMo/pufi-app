@@ -13,7 +13,7 @@ export default function Footer(){
         <div>
             <div>
             <div>
-               <img src={pufiFooter} alt='pugi app logo' />
+               <img src={pufiFooter} alt='pufi app logo' />
             </div>
 
             <div>

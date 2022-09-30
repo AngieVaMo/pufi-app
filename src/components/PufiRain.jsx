@@ -7,7 +7,7 @@ export default function PufiRain(){
     const verMas = "< VER MAS"
 
     return(
-        <div>
+        <div id="pufiRain">
         <div>
             <button>SHOP</button>
         </div>

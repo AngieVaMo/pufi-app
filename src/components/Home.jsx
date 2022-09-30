@@ -3,17 +3,17 @@ import NavBar from "./NavBar";
 
 export default function Home(){
     return(
-        <div>
+        <div className="homeContainer">
             <div>
                 <NavBar/>
             </div>
 
-            <div>
+            <div className="homeText">
                 <h3>ESTAR CÓMODO,</h3>
                 <h3>NUNCA FUE TAN FÁCIL.</h3>
             </div>
 
-            <div>
+            <div className="btnContainer">
                 <button>SHOP</button>
             </div>
         </div>

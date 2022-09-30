@@ -9,41 +9,44 @@ import downArrow from '../assets/downArrow.png';
 
 export default function NavBar(){
     return(
-        <div>
+        <div className="navbarContainer">
             <div>
                 <img src={pufiLogo} alt="pufi app logo" />
             </div>
 
+            <div className="navbarLinks">
             <div>
-                <a href="">
+                <a href="#pufipuff">
                     <img src={puffLogo} alt="puff logo" />
                     <h4>PUFI PUFF</h4>
                 </a>
             </div>
 
-            <div>
-                <a href="">
+            <div className="navbarRain">
+                <a href="#pufiRain">
                     <img src={rainLogo} alt="rain logo" />
                     <h4>PUFI RAIN</h4>
                 </a>
             </div>
 
-            <div>
-                <a href="">
+            <div className="navbarCart">
+                <a href="#pufiCart">
                     <img src={cartLogo} alt="cart logo" />
                     <h4>PUFI CART</h4>
                 </a>
             </div>
 
             <div>
-                <a href="">
+                <a href="#pufiNap">
                     <img src={napLogo} alt="nap logo" />
                     <h4>PUFI NAP</h4>
                 </a>
             </div>
+            </div>
 
-            <div>
-                <a href="">
+            <div className="userProfile">
+                <a href=""
+                className="userAccount">
                     MI CUENTA
                     <img src={downArrow} alt="" />
                 </a>
