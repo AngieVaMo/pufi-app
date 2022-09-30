@@ -24,7 +24,9 @@ export default function PufiNap(){
                 <button>{verMas}</button>
             </div>
         </div>
-
+        <div className="triangle">
+            <p>&nbsp;</p>
+        </div>
         <div className="pufiNapBtn">
             <button>SHOP</button>
         </div>

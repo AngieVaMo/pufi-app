@@ -12,6 +12,16 @@
     @include textContainer();
 }
 
+.triangle {
+     background-color: white;
+     width: 30px;
+     height: 30px;
+     transform: rotate(135deg);
+     display: flex;
+     align-self: center;
+ }
+ 
+
 @media(max-width: 620px) {
     .pufiCartContainer {
         align-items: center;

@@ -12,6 +12,17 @@
     @include textContainer();
 }
 
+.triangle {
+     background-color: white;
+     width: 60px;
+     height: 60px;
+     transform: rotate(135deg);
+     display: flex;
+     align-self: center;
+ 
+ }
+ 
+
 @media(max-width: 620px) {
     .pufiPuffContainer {
         justify-content: center;

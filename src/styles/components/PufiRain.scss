@@ -12,6 +12,22 @@
     @include textContainer();
 }
 
+.triangle {
+   /* width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 80px solid lightblue;
+    border-bottom: 40px solid transparent;*/
+
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    transform: rotate(135deg);
+    display: flex;
+    align-self: center;
+
+}
+
 @media(max-width: 620px) {
     .pufiRainContainer {
         align-items: center;

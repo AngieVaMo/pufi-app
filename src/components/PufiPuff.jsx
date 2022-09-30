@@ -25,6 +25,9 @@ export default function PufiPuff(){
                 <button>{verMas}</button>
             </div>
         </div>
+        <div className="triangle">
+            <p>&nbsp;</p>
+        </div>
 
         <div className="pufiPuffBtn">
             <button>SHOP</button>

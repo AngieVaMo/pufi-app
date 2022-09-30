@@ -11,7 +11,9 @@ export default function PufiCart(){
         <div className="pufiCartBtn">
             <button>SHOP</button>
         </div>
-
+        <div className="triangle">
+            <p>&nbsp;</p>
+        </div>
         <div className="pufiCartText">
             <div>
                 <img src={pufiCart2} alt="" />

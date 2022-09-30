@@ -11,7 +11,9 @@ export default function PufiRain(){
         <div className="pufiRainBtn">
             <button>SHOP</button>
         </div>
-
+        <div className="triangle">
+            <p>&nbsp;</p>
+        </div>
         <div className="pufiRainText">
             <div>
                 <img src={pufiRain2} alt="" />
