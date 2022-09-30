@@ -59,7 +59,7 @@ export default function Form(){
 
     return(
         <div>
-            <div>
+            <div className="form">
                 <input 
                 type="email" 
                 placeholder="Ingresa tu email" 

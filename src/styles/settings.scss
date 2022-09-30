@@ -1,4 +1,74 @@
 //variables
+$displayDivs: flex;
+$capabackagraund: linear-gradient(rgba(5, 7, 12, 0.60), rgba(5, 7, 12, 0.60));
+$fontInfo: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$colorFontInfoh5: #1b1b1b9f;
+$negritaFooter: bold;
+$boxpadding: border-box;
 
 
 //mixins
+@mixin backImageContainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-width: 300px;
+    height: 500px;
+
+    button {
+        border: none;
+        color: transparent;
+        background-color: transparent;        
+    }
+
+    &:hover {
+        button {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;        
+            padding: 10px 30px; 
+            box-sizing: $boxpadding;           
+            
+            &:hover {
+                cursor: pointer;
+                transform: scaleX(1.3) scaleY(1.3);
+            }
+        }
+    }    
+}
+
+@mixin  textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-width: 300px;
+    height: 500px;
+
+    img {
+        width: 80px;
+        height: 80px;
+    } 
+
+    span {
+        font-size: large;
+        font-weight: 500;
+    }
+    
+    button {
+        background-color: transparent;
+        border: none;
+        color: black;       
+        padding: 10px;
+        box-sizing: $boxpadding;
+        
+        &:hover {
+            cursor: pointer;
+            transform: scaleX(1.3) scaleY(1.3);
+        }
+    }      
+}

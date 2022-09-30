@@ -7,12 +7,9 @@ export default function PufiPuff(){
     const verMas = "< VER MAS"
 
     return(
-        <div id="pufipuff">
-        <div>
-            <button>SHOP</button>
-        </div>
+        <div id="pufipuff" className="pufiPuffContainer">
 
-        <div>
+        <div className="pufiPuffText">
             <div>
                 <img src={pufiPuff2} alt="" />
             </div>
@@ -25,6 +22,10 @@ export default function PufiPuff(){
             <div>
                 <button>{verMas}</button>
             </div>
+        </div>
+
+        <div className="pufiPuffBtn">
+            <button>SHOP</button>
         </div>
         </div>
     )

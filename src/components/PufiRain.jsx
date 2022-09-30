@@ -7,12 +7,12 @@ export default function PufiRain(){
     const verMas = "< VER MAS"
 
     return(
-        <div id="pufiRain">
-        <div>
+        <div id="pufiRain" className="pufiRainContainer">
+        <div className="pufiRainBtn">
             <button>SHOP</button>
         </div>
 
-        <div>
+        <div className="pufiRainText">
             <div>
                 <img src={pufiRain2} alt="" />
             </div>

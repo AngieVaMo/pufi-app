@@ -1,0 +1,76 @@
+.subsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.images{
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+    justify-content: center;
+    align-items: center;    
+    margin: 50px;
+    padding: 2px;
+    align-content: center; 
+    box-sizing: $boxpadding;    
+
+    img { 
+        margin: 1px;
+        width: 230px;
+        height: 230px;       
+    }
+}
+
+.instagram {
+    font-family: $fontInfo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+    h5 {
+        color: $colorFontInfoh5;
+        margin-bottom: 2px;
+        font-weight: 400;
+    }
+
+    p{
+        font-size: 40px;
+        margin-top: 2px;
+        font-weight: 300;
+    }
+}
+
+.newsletter {
+    font-family: $fontInfo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h5 {
+        color: $colorFontInfoh5;
+        margin-bottom: 0px;
+        font-weight: 400;
+    }
+
+    p{
+        font-size: 40px;
+        margin-top: 0px;
+        font-weight: 300;
+        margin-bottom: 0px;
+    }
+
+    h6 {
+        margin-top: 0px;
+        width: 210px;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+}

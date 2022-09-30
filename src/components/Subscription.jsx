@@ -9,13 +9,13 @@ import Form from "./SubscriptionForm"
 
 export default function Subscription(){
     return(
-        <div>
-            <div>
+        <div className="subsContainer">
+            <div className="instagram">
                 <h5>INSTAGRAM</h5>
-                <h3>#ESPUFI</h3>
+                <p>#ESPUFI</p>
             </div>
 
-            <div>
+            <div className="images">
                 <img src={puffCollage} alt="" />
                 <img src={puffCollage1} alt="" />
                 <img src={puffCollage2} alt="" />
@@ -24,10 +24,10 @@ export default function Subscription(){
                 <img src={napCollage} alt="" />
             </div>
 
-            <div>
+            <div className="newsletter">
                 <h5>NEWSLETTER</h5>
-                <h3>SUSCRIBITE</h3>
-                <p>Y enterate de todas las novedades</p>
+                <p>SUSCRIBITE</p>
+                <h6>Y enterate de todas las novedades</h6>
                 <Form/>
             </div>
         </div>

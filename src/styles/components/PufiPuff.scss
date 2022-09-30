@@ -1,0 +1,13 @@
+.pufiPuffContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pufiPuffBtn {
+    background-image: url("../../assets/mainImages/pufiPuff.jpg");
+    @include backImageContainer();
+}
+
+.pufiPuffText {
+    @include textContainer();
+}

@@ -1,0 +1,13 @@
+.pufiRainContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pufiRainBtn {
+    background-image: url("../../assets/mainImages/pufiRain.jpg");
+    @include backImageContainer();
+}
+
+.pufiRainText {
+    @include textContainer();
+}

@@ -7,12 +7,8 @@ export default function PufiNap(){
     const verMas = "< VER MAS"
 
     return(
-        <div id="pufiNap">
-        <div>
-            <button>SHOP</button>
-        </div>
-
-        <div>
+        <div id="pufiNap" className="pufiNapContainer">
+        <div className="pufiNapText">
             <div>
                 <img src={pufiNap2} alt="" />
             </div>
@@ -25,6 +21,10 @@ export default function PufiNap(){
             <div>
                 <button>{verMas}</button>
             </div>
+        </div>
+
+        <div className="pufiNapBtn">
+            <button>SHOP</button>
         </div>
         </div>
     )

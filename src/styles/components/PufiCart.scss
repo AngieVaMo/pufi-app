@@ -1,0 +1,13 @@
+.pufiCartContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pufiCartBtn {
+    background-image: url("../../assets/mainImages/pufiCart.jpg");
+    @include backImageContainer();
+}
+
+.pufiCartText {
+    @include textContainer();
+}
