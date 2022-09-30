@@ -38,3 +38,14 @@
     }
          
 }
+
+@media(max-width: 800px){
+    .homeContainer {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .btnContainer {
+        margin-top: 20px;
+    }
+}

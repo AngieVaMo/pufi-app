@@ -56,9 +56,13 @@ $boxpadding: border-box;
 
     span {
         padding: 10px;
-        //border-bottom-style:groove;
         font-size: large;
         font-weight: 500;
+    }
+
+    p {
+        margin: 15px;
+        text-align: center;
     }
     
     button {

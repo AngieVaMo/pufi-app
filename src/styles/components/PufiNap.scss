@@ -11,3 +11,11 @@
 .pufiNapText {
     @include textContainer();
 }
+
+@media(max-width: 620px) {
+    .pufiNapContainer {
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+    }
+}

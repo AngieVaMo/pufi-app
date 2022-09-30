@@ -16,7 +16,7 @@ export default function NavBar(){
 
             <div className="navbarLinks">
             <div>
-                <a href="#pufipuff">
+                <a href="#pufiPuff">
                     <img src={puffLogo} alt="puff logo" />
                     <h4>PUFI PUFF</h4>
                 </a>

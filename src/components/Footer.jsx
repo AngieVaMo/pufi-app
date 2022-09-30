@@ -17,10 +17,10 @@ export default function Footer(){
             </div>
 
             <div className="pufisDiv">
-                <a href="">PUFI RAIN</a>
-                <a href="">PUFI PUFF</a>
-                <a href="">PUFI CART</a>
-                <a href="">PUFI NAP</a>
+                <a href="#pufiRain">PUFI RAIN</a>
+                <a href="#pufiPuff">PUFI PUFF</a>
+                <a href="#pufiCart">PUFI CART</a>
+                <a href="#pufiNap">PUFI NAP</a>
             </div>
 
             <div className="pufisDiv">

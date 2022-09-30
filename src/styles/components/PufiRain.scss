@@ -11,3 +11,13 @@
 .pufiRainText {
     @include textContainer();
 }
+
+@media(max-width: 620px) {
+    .pufiRainContainer {
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+    }
+}

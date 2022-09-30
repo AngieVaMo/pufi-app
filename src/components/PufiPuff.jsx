@@ -7,7 +7,7 @@ export default function PufiPuff(){
     const verMas = "< VER MAS"
 
     return(
-        <div id="pufipuff" className="pufiPuffContainer">
+        <div id="pufiPuff" className="pufiPuffContainer">
 
         <div className="pufiPuffText">
             <div>
