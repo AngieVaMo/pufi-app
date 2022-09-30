@@ -16,6 +16,12 @@ export default function Home(){
             <div className="btnContainer">
                 <button>SHOP</button>
             </div>
+
+            <div className="paging">
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
         </div>
     )
 }
